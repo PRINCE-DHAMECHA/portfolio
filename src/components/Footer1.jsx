@@ -9,7 +9,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer1() {
   let date = new Date();
-  let year = date.getFullYear();
   return (
     <Container fluid className="footer">
       <Row>
@@ -23,7 +22,7 @@ function Footer1() {
                 href="https://github.com/PRINCE-DHAMECHA"
                 style={{ color: "white" }}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer"
               >
                 <AiFillGithub />
               </a>
@@ -33,7 +32,7 @@ function Footer1() {
                 href="https://twitter.com/pmdhamecha673"
                 style={{ color: "white" }}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer"
               >
                 <AiOutlineTwitter />
               </a>
@@ -43,7 +42,7 @@ function Footer1() {
                 href="https://www.linkedin.com/in/pmdhamecha/"
                 style={{ color: "white" }}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer"
               >
                 <FaLinkedinIn />
               </a>
@@ -53,6 +52,7 @@ function Footer1() {
                 href="https://www.instagram.com/prince.dhamecha/"
                 style={{ color: "white" }}
                 target="_blank"
+                rel="noreferrer"
               >
                 <AiFillInstagram />
               </a>
