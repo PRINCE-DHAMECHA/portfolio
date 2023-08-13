@@ -1,8 +1,9 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import gdsc from "../../Assets/gdsc.png";
 import duhacks from "../../Assets/duhacks.png";
 import ansr from "../../Assets/ansrcoachImg.jpg";
+import { BsGithub } from "react-icons/bs";
 
 function Projects() {
   return (
@@ -18,8 +19,29 @@ function Projects() {
               <Card.Title>ANSRCOACH</Card.Title>
               <Card.Body>
                 <Card.Text className="" style={{ textAlign: "center" }}>
-                  Web Development Intern (FEB'2023-current)
+                  Web Development Intern <br></br>(FEB'2023-APR'2023)
                 </Card.Text>
+                <Button
+                  className="m-3"
+                  variant="primary"
+                  href={
+                    "https://drive.google.com/file/d/1zqqRaZPNTZX9N-C1AanBj4Llpk0-N9xj/view?usp=sharing"
+                  }
+                  target="_blank"
+                >
+                  <BsGithub /> &nbsp;
+                  {"Certificate"}
+                </Button>
+                <Button
+                  variant="primary"
+                  href={
+                    "https://drive.google.com/file/d/17m0QZjK4i_skSXlvr7ycs3NIz3cqltwo/view?usp=sharing"
+                  }
+                  target="_blank"
+                >
+                  <BsGithub /> &nbsp;
+                  {"LOR"}
+                </Button>
               </Card.Body>
             </Card>
           </Col>
