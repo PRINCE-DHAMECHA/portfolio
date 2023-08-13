@@ -21,27 +21,30 @@ function Projects() {
                 <Card.Text className="" style={{ textAlign: "center" }}>
                   Web Development Intern <br></br>(FEB'2023-APR'2023)
                 </Card.Text>
-                <Button
-                  className="m-3"
-                  variant="primary"
-                  href={
-                    "https://drive.google.com/file/d/1zqqRaZPNTZX9N-C1AanBj4Llpk0-N9xj/view?usp=sharing"
-                  }
-                  target="_blank"
-                >
-                  <BsGithub /> &nbsp;
-                  {"Certificate"}
-                </Button>
-                <Button
-                  variant="primary"
-                  href={
-                    "https://drive.google.com/file/d/17m0QZjK4i_skSXlvr7ycs3NIz3cqltwo/view?usp=sharing"
-                  }
-                  target="_blank"
-                >
-                  <BsGithub /> &nbsp;
-                  {"LOR"}
-                </Button>
+                <div>
+                  <Button
+                    className="m-1"
+                    variant="primary"
+                    href={
+                      "https://drive.google.com/file/d/1zqqRaZPNTZX9N-C1AanBj4Llpk0-N9xj/view?usp=sharing"
+                    }
+                    target="_blank"
+                  >
+                    <BsGithub /> &nbsp;
+                    {"Certificate"}
+                  </Button>
+                  <Button
+                    className="m-1"
+                    variant="primary"
+                    href={
+                      "https://drive.google.com/file/d/17m0QZjK4i_skSXlvr7ycs3NIz3cqltwo/view?usp=sharing"
+                    }
+                    target="_blank"
+                  >
+                    <BsGithub /> &nbsp;
+                    {"LOR"}
+                  </Button>
+                </div>
               </Card.Body>
             </Card>
           </Col>
@@ -51,7 +54,7 @@ function Projects() {
               <Card.Title>GDSC - DDU</Card.Title>
               <Card.Body>
                 <Card.Text className="" style={{ textAlign: "center" }}>
-                  Web Team Member (SEP'22-current)
+                  Web Team Member (SEP'22-AUG'23)
                 </Card.Text>
               </Card.Body>
             </Card>
